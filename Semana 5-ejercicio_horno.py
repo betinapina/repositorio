@@ -26,7 +26,7 @@ while (ingreso != 0):
       print("Horno estable")
   print()
 
-  ingreso = int(input ("Ingrese una temperatura, 0 para salir: "))
+  ingreso = int(input ("Ingrese una temperatura, ingrese 0 para salir: "))
   while (ingreso<100 and ingreso>0 or ingreso>200):
 	  ingreso = int(input ("Error, reingrese temperatura entre 100º y 200º o 0 para salir: "))
 
